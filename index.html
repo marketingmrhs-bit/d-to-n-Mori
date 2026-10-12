@@ -1,0 +1,1044 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Dự toán chi phí xây dựng nhà phố, biệt thự, văn phòng, khách sạn theo diện tích quy đổi. MORI HOMES · in trust we build.">
+<meta name="theme-color" content="#6D0013">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<title>Dự toán xây dựng MORI HOMES</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout: brand bar; on wide screens the form runs left with a sticky estimate panel (total + section drawing) on the right, breakdown and price scope below; on phones one column with the total pinned in a bottom dock */
+:root{
+  --brand:#6D0013; --brand-press:#560010; --on-brand:#FFFFFF; --on-brand-2:rgba(255,255,255,.8); --on-brand-line:rgba(255,255,255,.24);
+  --brand-text:#6D0013; --brand-tint:#F7E8EA;
+  --bg:#F4F3F3; --surface:#FFFFFF; --surface-2:#F1EEEE; --ink:#1A1416; --ink-2:#5F5759; --ink-3:#978E90; --line:#E8E3E4; --line-strong:#D3CBCC;
+  --err:#B3261E; --warn-bg:#FCEBC9; --warn-ink:#7A4800; --knob:#FFFFFF; --shadow:rgba(60,10,20,.18);
+  --g-level:#F1EEEE; --g-edge:#5F5759; --g-sunk:#E5DCDA; --g-concrete:#A99F9D; --g-pav:#D9D1CD; --g-hatch:#C9BFBD; --g-roof:#6D0013; --g-roof-soft:#F2DDE0;
+  --font:"Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --brand:#8E1427; --brand-press:#A3192F; --on-brand:#FFFFFF; --on-brand-2:rgba(255,255,255,.8); --on-brand-line:rgba(255,255,255,.24);
+    --brand-text:#F2A3AE; --brand-tint:#3A1A20;
+    --bg:#0F0D0E; --surface:#1B1819; --surface-2:#252122; --ink:#F4EFF0; --ink-2:#BCB2B4; --ink-3:#857B7D; --line:#2F2A2B; --line-strong:#463F41;
+    --err:#FF8A80; --warn-bg:#3D2C10; --warn-ink:#F5C87A; --knob:#FFFFFF; --shadow:rgba(0,0,0,.5);
+    --g-level:#2A2526; --g-edge:#BCB2B4; --g-sunk:#352D2E; --g-concrete:#71676A; --g-pav:#3C3537; --g-hatch:#4A4244; --g-roof:#C8435A; --g-roof-soft:#4A1F27;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --brand:#8E1427; --brand-press:#A3192F; --on-brand:#FFFFFF; --on-brand-2:rgba(255,255,255,.8); --on-brand-line:rgba(255,255,255,.24);
+  --brand-text:#F2A3AE; --brand-tint:#3A1A20;
+  --bg:#0F0D0E; --surface:#1B1819; --surface-2:#252122; --ink:#F4EFF0; --ink-2:#BCB2B4; --ink-3:#857B7D; --line:#2F2A2B; --line-strong:#463F41;
+  --err:#FF8A80; --warn-bg:#3D2C10; --warn-ink:#F5C87A; --knob:#FFFFFF; --shadow:rgba(0,0,0,.5);
+  --g-level:#2A2526; --g-edge:#BCB2B4; --g-sunk:#352D2E; --g-concrete:#71676A; --g-pav:#3C3537; --g-hatch:#4A4244; --g-roof:#C8435A; --g-roof-soft:#4A1F27;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+h1,h2,h3{margin:0;text-wrap:balance}
+p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+input,textarea{font:inherit;color:inherit}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--brand-text);outline-offset:2px}
+.wrap{max-width:1160px;margin:0 auto;padding-inline:16px}
+
+/* brand bar */
+.brandbar{background:var(--brand);color:var(--on-brand)}
+.bar-in{display:flex;align-items:center;gap:12px;padding-block:12px}
+.bar-in img{width:38px;height:auto;display:block}
+.bar-name b{display:block;font-weight:800;font-size:16px;letter-spacing:.04em;line-height:1.2}
+.bar-name span{display:block;font-size:11.5px;color:var(--on-brand-2);letter-spacing:.03em}
+.bar-tag{margin-left:auto;font-size:12px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--on-brand-2)}
+@media (max-width:560px){.bar-tag{display:none}}
+
+/* intro */
+.intro{padding-block:28px 22px;display:grid;gap:10px}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--brand-text)}
+h1{font-size:clamp(26px,4.2vw,36px);font-weight:800;letter-spacing:-.015em;line-height:1.15}
+.lead{color:var(--ink-2);font-size:15.5px;max-width:62ch}
+.formula{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin-top:6px;font-size:13.5px}
+.term{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:5px 10px;font-weight:600}
+.term small{font-weight:500;color:var(--ink-2)}
+.op{color:var(--ink-3);font-weight:700}
+
+/* layout */
+.layout{display:grid;gap:16px;align-items:start}
+.form{display:grid;gap:12px;min-width:0}
+.panel{display:grid;gap:12px;min-width:0}
+.details{display:grid;gap:12px;margin-top:16px;align-items:start}
+.details .col{display:grid;gap:12px;min-width:0}
+.layout,.details,.form,.panel,.details .col{grid-template-columns:minmax(0,1fr)}
+@media (min-width:960px){
+  .layout{grid-template-columns:minmax(0,1fr) 420px;gap:24px}
+  .panel{position:sticky;top:16px}
+  .details{grid-template-columns:minmax(0,1fr) 420px;gap:24px;margin-top:24px}
+}
+
+/* cards & fields */
+.card{background:var(--surface);border-radius:18px;padding:18px}
+.card-h{display:grid;gap:2px;margin-bottom:14px}
+.card-h h2{font-size:17px;font-weight:700;line-height:1.3}
+.hint{font-size:13px;color:var(--ink-2)}
+.fields{display:grid;gap:14px}
+.field{display:grid;gap:6px;min-width:0}
+.lbl{font-size:13.5px;font-weight:600}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:380px){.two{grid-template-columns:1fr}}
+.err{font-size:12.5px;color:var(--err);font-weight:500}
+
+.numin{display:flex;align-items:center;height:50px;border:1.5px solid var(--line-strong);border-radius:14px;background:var(--surface);overflow:hidden}
+.numin:focus-within{border-color:var(--brand-text);box-shadow:0 0 0 3px var(--brand-tint)}
+.numin.bad{border-color:var(--err)}
+.numin input{flex:1;min-width:0;width:100%;height:100%;border:0;background:none;font-size:17px;font-weight:600;font-variant-numeric:tabular-nums;outline:none;padding:0 6px 0 14px}
+.numin .unit{flex:none;font-size:13.5px;color:var(--ink-2);padding:0 14px 0 4px}
+
+.derived{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 12px;border-radius:12px;background:var(--surface-2);font-size:13.5px}
+.derived span{color:var(--ink-2)}
+.derived b{font-variant-numeric:tabular-nums;font-weight:700;white-space:nowrap}
+.derived.land{background:var(--brand-tint);padding:12px 14px}
+.derived.land span{color:var(--ink)}
+.derived.land b{font-size:19px;color:var(--brand-text)}
+
+.toggle{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-block:13px;border-top:1px solid var(--line);cursor:pointer}
+.toggle:first-child{border-top:0;padding-top:0}
+.toggle .t b{display:block;font-size:14.5px;font-weight:600}
+.toggle .t small{display:block;font-size:12.5px;color:var(--ink-2)}
+.toggle input{appearance:none;-webkit-appearance:none;width:48px;height:28px;border-radius:14px;background:var(--line-strong);position:relative;flex:none;cursor:pointer;margin:0;transition:background .15s}
+.toggle input::after{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:var(--knob);box-shadow:0 1px 3px var(--shadow);transition:transform .15s}
+.toggle input:checked{background:var(--brand)}
+.toggle input:checked::after{transform:translateX(20px)}
+.toggle input:disabled{opacity:.4;cursor:default}
+.toggle.off{cursor:default}
+.sub-block{display:grid;gap:12px;padding:0 0 14px}
+
+.opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.opt{position:relative;display:block}
+.opt input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.opt .box{display:flex;flex-direction:column;gap:2px;height:100%;padding:11px 13px;border:1.5px solid var(--line-strong);border-radius:13px;cursor:pointer;background:var(--surface)}
+.opt .box b{font-size:14px;font-weight:600;line-height:1.35}
+.opt .box .k{font-size:12.5px;color:var(--ink-2);font-weight:600;font-variant-numeric:tabular-nums}
+.opt input:checked + .box{border-color:var(--brand-text);background:var(--brand-tint)}
+.opt input:checked + .box .k{color:var(--brand-text)}
+.opt input:focus-visible + .box{outline:2px solid var(--brand-text);outline-offset:2px}
+.opt input:disabled + .box{opacity:.45;cursor:default}
+.group-lbl{font-size:13.5px;font-weight:600;margin-bottom:8px}
+
+.floorlist{display:grid;gap:10px}
+.floorrow{display:grid;grid-template-columns:78px minmax(0,1fr) 44px;align-items:center;gap:10px}
+.floorrow .lbl small{display:block;font-weight:500;font-size:12px;color:var(--ink-2)}
+.rm{width:44px;height:44px;border-radius:50%;border:1px solid var(--line-strong);display:grid;place-items:center;color:var(--ink-2);font-size:20px;line-height:1}
+.rm:hover{color:var(--err);border-color:var(--err)}
+.addfloor{display:flex;align-items:center;justify-content:center;height:48px;width:100%;border:1.5px dashed var(--brand-text);border-radius:14px;color:var(--brand-text);font-weight:600;font-size:14.5px}
+.addfloor:hover{background:var(--brand-tint)}
+.addfloor:disabled{opacity:.45;cursor:default;background:none}
+.opts.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:600px){
+  .opts.three{grid-template-columns:minmax(0,1fr)}
+  .opts.three .box{flex-direction:row;justify-content:space-between;align-items:center;gap:12px}
+}
+
+.reset-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px}
+.reset{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:48px;padding:0 22px;border-radius:14px;border:1.5px solid var(--brand-text);background:var(--surface);color:var(--brand-text);font-weight:600;font-size:15px}
+.reset:hover{background:var(--brand-tint)}
+.reset .ic{width:18px;height:18px}
+.reset-msg{font-size:13.5px;color:var(--ink-2)}
+.reset-msg button{color:var(--brand-text);font-weight:600;text-decoration:underline;text-underline-offset:3px;padding:6px 2px}
+@media (max-width:600px){.reset-row{flex-direction:column;align-items:stretch}.reset-msg{text-align:center}}
+
+/* panel */
+.total{background:var(--brand);color:var(--on-brand);border-radius:20px;padding:20px}
+.total .cap{font-size:12.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--on-brand-2)}
+.big{font-size:42px;font-weight:800;letter-spacing:-.02em;line-height:1.08;margin-top:6px;font-variant-numeric:tabular-nums}
+.exact{font-size:14px;color:var(--on-brand-2);font-variant-numeric:tabular-nums;margin-top:2px}
+.calc{display:flex;flex-wrap:wrap;gap:2px 6px;margin-top:4px;font-size:13.5px;color:var(--on-brand-2);font-variant-numeric:tabular-nums}
+.calc b{color:var(--on-brand);font-weight:600}
+.allin{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin-top:16px;padding-top:14px;border-top:1px solid var(--on-brand-line)}
+.allin span{font-size:13px;color:var(--on-brand-2);line-height:1.4}
+.allin b{font-size:19px;font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
+
+.draw-h{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:8px}
+.draw-h h2{font-size:15px;font-weight:700}
+.draw-h span{font-size:13px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.draw svg{display:block;width:100%;height:auto;max-height:430px}
+.g-earth{fill:url(#hatch)}
+.g-hatch{stroke:var(--g-hatch);stroke-width:1.2}
+.g-ground{stroke:var(--g-edge);stroke-width:1.5}
+.g-level{fill:var(--g-level);stroke:var(--g-edge);stroke-width:1.2}
+.g-slab{fill:var(--g-edge)}
+.g-void{fill:none;stroke:var(--g-edge);stroke-width:1;stroke-dasharray:3 3}
+.g-sunk{fill:var(--g-sunk);stroke:var(--g-edge);stroke-width:1.2}
+.g-found{fill:var(--g-concrete)}
+.g-nen{fill:var(--g-roof)}
+.g-pav{fill:var(--g-pav)}
+.g-para{fill:none;stroke:var(--g-edge);stroke-width:1.2;stroke-dasharray:4 3}
+.g-roof{fill:var(--g-roof);stroke:var(--g-roof);stroke-width:1.2;stroke-linejoin:round}
+.g-roof-soft{fill:var(--g-roof-soft);stroke:var(--g-roof);stroke-width:1.6;stroke-linejoin:round}
+.g-truss{stroke:var(--g-roof);stroke-width:.9;fill:none}
+.g-lead{stroke:var(--ink-3);stroke-width:.8;fill:none}
+.g-name{fill:var(--ink);font:600 11px var(--font)}
+.g-val{fill:var(--ink-2);font:500 11px var(--font);font-variant-numeric:tabular-nums}
+.g-note{fill:var(--ink-3);font:500 9.5px var(--font)}
+
+/* breakdown table */
+.tbl-wrap{overflow-x:auto;margin:0 -4px}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:300px}
+th{font-size:11.5px;font-weight:600;color:var(--ink-2);text-align:right;padding:8px 6px;border-bottom:1px solid var(--line);letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
+td{padding:10px 6px;border-bottom:1px solid var(--line);text-align:right;font-variant-numeric:tabular-nums;vertical-align:top;white-space:nowrap}
+th:first-child,td:first-child{text-align:left;white-space:normal}
+td:first-child b{font-weight:600}
+td small{display:block;color:var(--ink-2);font-size:12px;font-weight:400}
+td.q{font-weight:600}
+tfoot td{border-bottom:0;padding-top:12px}
+tfoot tr:first-child td{border-top:2px solid var(--ink);font-weight:700}
+tfoot .money td{font-size:15px}
+tfoot .money td:last-child{font-weight:800;color:var(--brand-text)}
+
+/* coefficients */
+.coef{display:grid;gap:0}
+.coef li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 14px;padding:9px 0;border-top:1px solid var(--line);font-size:13.5px}
+.coef li:first-child{border-top:0;padding-top:0}
+.coef li span{color:var(--ink-2)}
+.coef li b{font-weight:600;text-align:right;font-variant-numeric:tabular-nums}
+
+/* scope */
+.scope{display:grid;gap:14px}
+.scope h3{font-size:13.5px;font-weight:700;margin-bottom:6px}
+.scope li{position:relative;padding-left:18px;font-size:13.5px;color:var(--ink-2);line-height:1.45}
+.scope li + li{margin-top:5px}
+.scope li::before{content:"";position:absolute;left:2px;top:.6em;width:7px;height:7px;border-radius:50%;background:var(--brand-text)}
+.scope .no li::before{background:none;border:1.5px solid var(--ink-3);width:5px;height:5px}
+
+/* cta */
+.cta p{font-size:14px;color:var(--ink-2)}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;height:50px;border-radius:14px;font-weight:600;font-size:15px;width:100%}
+.btn.primary{background:var(--brand);color:var(--on-brand)}
+.btn.primary:hover{background:var(--brand-press)}
+.btn .ic{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.cta-actions{display:grid;gap:10px;margin-top:14px}
+.btn .i-check{display:none}
+.btn.done .i-copy{display:none}
+.btn.done .i-check{display:block}
+.ic{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none;display:block}
+.contact{display:grid;gap:8px}
+.c-row{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;text-decoration:none;color:inherit;min-width:0}
+a.c-row:hover{border-color:var(--brand-text)}
+.c-ic{width:38px;height:38px;border-radius:50%;background:var(--brand-tint);color:var(--brand-text);display:grid;place-items:center;flex:none}
+.c-t{flex:1;min-width:0}
+.c-t small{display:block;font-size:12px;color:var(--ink-2)}
+.c-t b{display:block;font-size:16px;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:.01em;overflow-wrap:anywhere;user-select:all}
+.c-acts{display:flex;gap:6px;flex:none}
+.c-btn{display:inline-flex;align-items:center;justify-content:center;height:36px;padding:0 12px;border-radius:11px;font-size:13.5px;font-weight:600;background:var(--brand);color:var(--on-brand);text-decoration:none}
+.c-btn.ghost{background:var(--surface-2);color:var(--ink)}
+.c-go{color:var(--ink-3)}
+#hotline{white-space:nowrap}
+@media (max-width:420px){.c-ic{display:none}.c-row{gap:10px}}
+.hot{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;font-size:14px}
+.hot span{color:var(--ink-2)}
+.hot b{font-size:16px;font-variant-numeric:tabular-nums;letter-spacing:.02em}
+.copybox{display:grid;gap:6px}
+.copybox textarea{width:100%;min-height:180px;border:1px solid var(--line-strong);border-radius:12px;background:var(--surface-2);padding:10px;font-size:13px;resize:vertical}
+
+.foot{padding-block:28px 32px;font-size:12.5px;color:var(--ink-2);display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+
+/* phone dock */
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:12px;box-shadow:0 -10px 28px -14px var(--shadow);transition:transform .22s ease}
+.dock.away{transform:translateY(120%)}
+.dock .d-t{flex:1;min-width:0}
+.dock small{display:block;font-size:12px;color:var(--ink-2)}
+.dock b{display:block;font-size:20px;font-weight:800;color:var(--brand-text);font-variant-numeric:tabular-nums;line-height:1.2}
+.dock button{height:44px;padding:0 16px;border-radius:13px;background:var(--brand);color:var(--on-brand);font-weight:600;font-size:14px;flex:none}
+@media (max-width:959px){ main{padding-bottom:84px} }
+@media (min-width:960px){ .dock{display:none} }
+@media (prefers-reduced-motion:reduce){ .dock,.toggle input,.toggle input::after{transition:none} }
+</style>
+</head>
+<body>
+<header class="brandbar">
+  <div class="wrap bar-in">
+    <img src="data:image/png;base64,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" alt="">
+    <div class="bar-name"><b>MORI HOMES</b><span>in trust we build</span></div>
+    <span class="bar-tag">Dự toán chi phí xây dựng</span>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <p class="eyebrow">Nhà phố · Biệt thự · Văn phòng, khách sạn</p>
+    <h1>Dự toán chi phí xây dựng</h1>
+    <p class="lead">Chọn mô hình, nhập diện tích khu đất và diện tích từng tầng. Mỗi phần (móng, sàn, mái, sân) được quy đổi diện tích theo hệ số, rồi nhân với đơn giá của mô hình đã chọn.</p>
+    <div class="formula" aria-label="Cách tính">
+      <span class="term">Diện tích từng phần × hệ số</span>
+      <span class="op">=</span>
+      <span class="term">Diện tích quy đổi</span>
+      <span class="op">×</span>
+      <span class="term">Đơn giá</span>
+    </div>
+  </section>
+
+  <div class="layout">
+    <form class="form" id="form" novalidate>
+      <!-- Mô hình -->
+      <section class="card">
+        <div class="card-h"><h2>Mô hình xây dựng</h2></div>
+        <div class="opts three" role="radiogroup" aria-label="Mô hình xây dựng">
+          <label class="opt"><input type="radio" name="type" value="pho"><span class="box"><b>Nhà phố</b><span class="k">4.850.000 đ/m²</span></span></label>
+          <label class="opt"><input type="radio" name="type" value="bietthu"><span class="box"><b>Biệt thự</b><span class="k">5.050.000 đ/m²</span></span></label>
+          <label class="opt"><input type="radio" name="type" value="vanphong"><span class="box"><b>Văn phòng, khách sạn</b><span class="k">5.300.000 đ/m²</span></span></label>
+        </div>
+      </section>
+
+      <!-- Diện tích khu đất -->
+      <section class="card">
+        <div class="card-h"><h2>Diện tích khu đất</h2></div>
+        <div class="fields">
+          <div class="two">
+            <div class="field">
+              <label class="lbl" for="in-w">Chiều ngang</label>
+              <div class="numin" data-key="w" data-min="1" data-max="200"><input id="in-w" inputmode="decimal" autocomplete="off"><span class="unit">m</span></div>
+            </div>
+            <div class="field">
+              <label class="lbl" for="in-l">Chiều dài</label>
+              <div class="numin" data-key="l" data-min="1" data-max="300"><input id="in-l" inputmode="decimal" autocomplete="off"><span class="unit">m</span></div>
+            </div>
+          </div>
+          <div class="derived land" aria-live="polite"><span>Diện tích <span id="d-land-l">5 × 15 m</span></span><b id="d-land">75 m²</b></div>
+        </div>
+      </section>
+
+      <!-- Số tầng -->
+      <section class="card">
+        <div class="card-h">
+          <h2>Số tầng</h2>
+          <p class="hint">Nhập diện tích sàn từng tầng. Tầng trệt lấy theo diện tích khu đất, sửa lại nếu nhà chừa sân hoặc khoảng lùi.</p>
+        </div>
+        <div class="fields">
+          <div class="floorlist" id="floorlist"></div>
+          <p class="err" id="e-dim" hidden></p>
+          <button type="button" class="addfloor" id="add-floor">+ Thêm tầng</button>
+          <div class="derived"><span id="d-n">Chỉ tầng trệt · tổng diện tích sàn</span><b id="d-sum">75 m²</b></div>
+          <div>
+            <label class="toggle" for="in-mez">
+              <span class="t"><b>Có tầng lửng</b><small>Sàn lửng tính 100%, ô thông tầng của lửng tính riêng</small></span>
+              <input type="checkbox" id="in-mez" data-key="mez">
+            </label>
+            <div class="sub-block" id="g-mez" hidden>
+              <div class="field">
+                <label class="lbl" for="in-mezA">Diện tích sàn lửng</label>
+                <div class="numin" data-key="mezA" data-min="1" data-max="5000"><input id="in-mezA" inputmode="decimal" autocomplete="off"><span class="unit">m²</span></div>
+              </div>
+              <div class="derived"><span id="d-void-l">Ô thông tầng · tính 50%</span><b id="d-void">30 m²</b></div>
+              <p class="err" id="e-mez" hidden></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tầng thượng và mái -->
+      <section class="card">
+        <div class="card-h">
+          <h2>Tầng thượng và mái</h2>
+          <p class="hint">Tum thang tính 100%, sân thượng tính 50%. Mái che phần còn lại.</p>
+        </div>
+        <div class="fields">
+          <div>
+            <label class="toggle" for="in-tum">
+              <span class="t"><b>Có tum thang</b><small>Phòng nhỏ trên cùng che cầu thang, thường kèm phòng thờ</small></span>
+              <input type="checkbox" id="in-tum" data-key="tum">
+            </label>
+            <div class="sub-block" id="g-tum">
+              <div class="field">
+                <label class="lbl" for="in-tumA">Diện tích tum</label>
+                <div class="numin" data-key="tumA" data-min="1" data-max="2000"><input id="in-tumA" inputmode="decimal" autocomplete="off"><span class="unit">m²</span></div>
+              </div>
+              <p class="err" id="e-tum" hidden></p>
+            </div>
+            <label class="toggle" for="in-st">
+              <span class="t"><b>Có sân thượng</b><small id="d-st">Phần mái bằng còn lại ngoài tum, 55 m²</small></span>
+              <input type="checkbox" id="in-st" data-key="st">
+            </label>
+          </div>
+          <div>
+            <p class="group-lbl">Loại mái <span class="hint" id="d-roof">· che 20 m² trên tum</span></p>
+            <div class="opts" role="radiogroup" aria-label="Loại mái">
+              <label class="opt"><input type="radio" name="roof" value="btct"><span class="box"><b>Bê tông cốt thép đúc bằng</b><span class="k">50%</span></span></label>
+              <label class="opt"><input type="radio" name="roof" value="ton"><span class="box"><b>Mái tôn</b><span class="k">35% × 1,4 hệ số nghiêng</span></span></label>
+              <label class="opt"><input type="radio" name="roof" value="ngoi"><span class="box"><b>Mái ngói, xà gồ sắt</b><span class="k">50% × 1,4 hệ số nghiêng</span></span></label>
+              <label class="opt"><input type="radio" name="roof" value="xien"><span class="box"><b>Bê tông xiên dán ngói</b><span class="k">75% × 1,4 hệ số nghiêng</span></span></label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Móng và hầm -->
+      <section class="card">
+        <div class="card-h">
+          <h2>Móng và tầng hầm</h2>
+          <p class="hint">Móng tính theo diện tích tầng trệt. Hầm tính riêng, cộng thêm vào phần móng.</p>
+        </div>
+        <div class="fields">
+          <div>
+            <p class="group-lbl">Loại móng</p>
+            <div class="opts" role="radiogroup" aria-label="Loại móng">
+              <label class="opt"><input type="radio" name="mong" value="bang"><span class="box"><b>Móng băng, móng cọc hoặc móng bè</b><span class="k">50%, có đổ nền bê tông 65%</span></span></label>
+              <label class="opt"><input type="radio" name="mong" value="don"><span class="box"><b>Móng đơn</b><span class="k">30%</span></span></label>
+            </div>
+          </div>
+          <label class="toggle" for="in-nen" id="t-nen">
+            <span class="t"><b>Đổ bê tông nền tầng trệt</b><small>Áp dụng cho móng băng, cọc hoặc bè</small></span>
+            <input type="checkbox" id="in-nen" data-key="nen">
+          </label>
+          <div>
+            <p class="group-lbl">Tầng hầm <span class="hint">· độ sâu tính từ mặt vỉa hè</span></p>
+            <div class="opts" role="radiogroup" aria-label="Tầng hầm">
+              <label class="opt"><input type="radio" name="ham" value="none"><span class="box"><b>Không có hầm</b><span class="k">0%</span></span></label>
+              <label class="opt"><input type="radio" name="ham" value="d1"><span class="box"><b>Sâu dưới 1,2 m</b><span class="k">150%</span></span></label>
+              <label class="opt"><input type="radio" name="ham" value="d2"><span class="box"><b>Sâu 1,2 – 1,8 m</b><span class="k">170%</span></span></label>
+              <label class="opt"><input type="radio" name="ham" value="d3"><span class="box"><b>Sâu trên 1,8 m</b><span class="k">200%</span></span></label>
+            </div>
+          </div>
+          <div class="sub-block" id="g-ham" hidden>
+            <div class="field">
+              <label class="lbl" for="in-hamA">Diện tích hầm</label>
+              <div class="numin" data-key="hamA" data-min="1" data-max="2000"><input id="in-hamA" inputmode="decimal" autocomplete="off"><span class="unit">m²</span></div>
+            </div>
+            <p class="err" id="e-ham" hidden></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sân -->
+      <section class="card">
+        <div class="card-h">
+          <h2>Sân trước và sân sau</h2>
+          <p class="hint">Phần sân lát nền trong lô đất, tính 50% diện tích. Để 0 nếu nhà xây hết lô.</p>
+        </div>
+        <div class="two">
+          <div class="field">
+            <label class="lbl" for="in-sanT">Sân trước</label>
+            <div class="numin" data-key="sanT" data-min="0" data-max="2000"><input id="in-sanT" inputmode="decimal" autocomplete="off"><span class="unit">m²</span></div>
+          </div>
+          <div class="field">
+            <label class="lbl" for="in-sanS">Sân sau</label>
+            <div class="numin" data-key="sanS" data-min="0" data-max="2000"><input id="in-sanS" inputmode="decimal" autocomplete="off"><span class="unit">m²</span></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="reset-row">
+        <button type="button" class="reset" id="reset"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg>Đặt lại thông số</button>
+        <p class="reset-msg" id="reset-msg" role="status" hidden><span id="reset-txt">Đã đặt lại thông số.</span> <button type="button" id="undo">Hoàn tác</button></p>
+      </div>
+    </form>
+
+    <aside class="panel" id="ket-qua" aria-label="Kết quả dự toán">
+      <section class="total" id="total-card">
+        <p class="cap">Phần thô + nhân công hoàn thiện</p>
+        <p class="big" id="r-short" aria-live="polite">1,76 tỷ</p>
+        <p class="exact" id="r-exact">1.755.625.000 đ</p>
+        <p class="calc"><b id="r-area">331,25 m²</b> quy đổi × <b id="r-price">5.300.000 đ/m²</b></p>
+        <div class="allin">
+          <span>Tổng cả nhà khi cộng<br>vật tư hoàn thiện (40–70%)</span>
+          <b id="r-allin">2,46 – 2,98 tỷ</b>
+        </div>
+      </section>
+      <section class="card draw">
+        <div class="draw-h"><h2>Mặt cắt minh họa</h2><span id="r-shape">5 × 15 m</span></div>
+        <div id="svg"></div>
+      </section>
+    </aside>
+  </div>
+
+  <div class="details">
+    <div class="col">
+      <section class="card">
+        <div class="card-h">
+          <h2>Bảng diện tích quy đổi</h2>
+          <p class="hint">Từng phần của ngôi nhà, từ móng lên mái.</p>
+        </div>
+        <div class="tbl-wrap">
+          <table>
+            <thead><tr><th>Hạng mục</th><th>Diện tích × hệ số</th><th>Quy đổi</th></tr></thead>
+            <tbody id="tbody"></tbody>
+            <tfoot id="tfoot"></tfoot>
+          </table>
+        </div>
+      </section>
+      <section class="card">
+        <div class="card-h">
+          <h2>Hệ số tính diện tích</h2>
+          <p class="hint">Dùng chung cho các mô hình xây dựng.</p>
+        </div>
+        <ul class="coef">
+          <li><span>Móng đơn</span><b>30%</b></li>
+          <li><span>Móng băng, móng cọc, móng bè</span><b>50%</b></li>
+          <li><span>Móng băng, cọc, bè có đổ bê tông nền trệt</span><b>65%</b></li>
+          <li><span>Tầng hầm sâu dưới 1,2 m so với vỉa hè</span><b>150%</b></li>
+          <li><span>Tầng hầm sâu 1,2 – 1,8 m</span><b>170%</b></li>
+          <li><span>Tầng hầm sâu trên 1,8 m</span><b>200%</b></li>
+          <li><span>Tầng trệt, tầng lửng, các lầu, tum thang</span><b>100%</b></li>
+          <li><span>Ô thông tầng dưới 8 m², tính như sàn</span><b>100%</b></li>
+          <li><span>Ô thông tầng từ 8 m² trở lên</span><b>50%</b></li>
+          <li><span>Sân thượng</span><b>50%</b></li>
+          <li><span>Mái tôn</span><b>35% × 1,4</b></li>
+          <li><span>Mái bê tông cốt thép đúc bằng</span><b>50%</b></li>
+          <li><span>Mái ngói, xà gồ sắt</span><b>50% × 1,4</b></li>
+          <li><span>Mái bê tông xiên dán ngói</span><b>75% × 1,4</b></li>
+          <li><span>Sân trước, sân sau (đến 70% tùy kết cấu)</span><b>50%</b></li>
+        </ul>
+      </section>
+    </div>
+    <div class="col">
+      <section class="card">
+        <div class="card-h"><h2>Đơn giá đã gồm những gì</h2></div>
+        <div class="scope">
+          <div>
+            <h3>Bao gồm</h3>
+            <ul>
+              <li>Vật tư và nhân công phần thô: móng, khung bê tông cốt thép, cầu thang, xây tô tường, chống thấm, mái</li>
+              <li>Ống luồn dây điện và ống cấp thoát nước âm tường</li>
+              <li>Nhân công hoàn thiện: ốp lát, sơn nước, lắp điện chiếu sáng, thiết bị vệ sinh</li>
+            </ul>
+          </div>
+          <div class="no">
+            <h3>Chưa bao gồm</h3>
+            <ul>
+              <li>Vật tư hoàn thiện như gạch ốp lát, sơn, thiết bị vệ sinh, đèn, công tắc, thường bằng 40–70% chi phí phần thô</li>
+              <li>Ép cọc, khoan nhồi, cừ tràm và gia cố vách tầng hầm</li>
+              <li>Chống sét, điện 3 pha, ống đồng máy lạnh, nước nóng năng lượng mặt trời</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="card cta">
+        <div class="card-h"><h2>Nhận báo giá chính xác</h2></div>
+        <p>Gửi dự toán này cho MORI HOMES qua Zalo, Facebook hoặc gọi hotline. Kỹ sư sẽ khảo sát lô đất và báo giá theo hồ sơ thiết kế.</p>
+        <div class="cta-actions">
+          <button type="button" class="btn primary" id="copy"><svg class="ic i-copy" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg><svg class="ic i-check" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span id="copy-l" aria-live="polite">Sao chép dự toán</span></button>
+          <div class="copybox" id="copybox" hidden>
+            <label class="hint" for="copy-text">Chưa sao chép tự động được. Bấm giữ vào khung dưới để chọn và sao chép.</label>
+            <textarea id="copy-text" readonly></textarea>
+          </div>
+          <div class="contact">
+            <div class="c-row">
+              <span class="c-ic"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+              <div class="c-t"><small>Hotline</small><b id="hotline">078 928 6679</b></div>
+              <div class="c-acts"><a class="c-btn" id="call" href="tel:0789286679">Gọi</a><button type="button" class="c-btn ghost" id="copy-hot">Sao chép</button></div>
+            </div>
+            <a class="c-row" id="fb" href="https://www.facebook.com/Morihomes.vn" target="_blank" rel="noopener">
+              <span class="c-ic"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1.1-4.6A8 8 0 1 1 21 12z"/></svg></span>
+              <div class="c-t"><small>Facebook</small><b id="fb-t">facebook.com/Morihomes.vn</b></div>
+              <svg class="ic c-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <footer class="foot">
+    <span>Dự toán sơ bộ để tham khảo. Chi phí chính thức theo hồ sơ thiết kế và khảo sát thực tế.</span>
+    <span>MORI HOMES · Hotline <span id="foot-hot">078 928 6679</span></span>
+  </footer>
+</main>
+
+<div class="dock" id="dock">
+  <div class="d-t"><small>Phần thô + nhân công hoàn thiện</small><b id="dock-total">1,76 tỷ</b></div>
+  <button type="button" id="dock-go">Xem chi tiết</button>
+</div>
+
+<script>
+/* ===== Cấu hình: MORI HOMES sửa các giá trị này ===== */
+const MO_HINH = {
+  pho:      { label: 'Nhà phố', price: 4850000 },
+  bietthu:  { label: 'Biệt thự', price: 5050000 },
+  vanphong: { label: 'Văn phòng, khách sạn', price: 5300000 }
+};
+const CONFIG = {
+  vatTu: [0.4, 0.7],        // vật tư hoàn thiện ước bằng 40–70% chi phí phần thô
+  heSoNghieng: 1.4,         // nhân thêm cho mái dốc
+  maxTang: 12,              // số tầng tối đa, tính cả tầng trệt
+  hotline: '078 928 6679',  // hotline hiển thị cho khách
+  facebook: 'https://www.facebook.com/Morihomes.vn'
+};
+
+const MONG = {
+  bang: { short: 'Móng băng, cọc hoặc bè', k: 0.5, kNen: 0.65 },
+  don:  { short: 'Móng đơn', k: 0.3 }
+};
+const HAM = {
+  none: null,
+  d1: { label: 'Sâu dưới 1,2 m', k: 1.5, depth: 1.0 },
+  d2: { label: 'Sâu 1,2 – 1,8 m', k: 1.7, depth: 1.5 },
+  d3: { label: 'Sâu trên 1,8 m', k: 2.0, depth: 2.4 }
+};
+const MAI = {
+  btct: { label: 'Bê tông cốt thép đúc bằng', k: 0.5, slope: false },
+  ton:  { label: 'Mái tôn', k: 0.35, slope: true, rise: 0.12 },
+  ngoi: { label: 'Mái ngói, xà gồ sắt', k: 0.5, slope: true, rise: 0.28 },
+  xien: { label: 'Bê tông xiên dán ngói', k: 0.75, slope: true, rise: 0.28 }
+};
+// floors[0] = tầng trệt, floors[i] = lầu i. null nghĩa là lấy theo tầng trệt (trệt lấy theo ngang × dài).
+const DEFAULTS = { type: 'pho', w: 5, l: 15, floors: [null], mez: false, mezA: null, tum: false, tumA: 20, st: false, roof: 'btct', mong: 'bang', nen: true, ham: 'none', hamA: null, sanT: 0, sanS: 0 };
+const STORE_KEY = 'mori-du-toan-v2';
+
+/* ===== Định dạng số kiểu Việt Nam ===== */
+const r2 = n => Math.round(n * 100) / 100;
+const group = s => s.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+function fmt(n) { const v = r2(n); let [i, f] = Math.abs(v).toFixed(2).split('.'); f = f.replace(/0+$/, ''); return (v < 0 ? '-' : '') + group(i) + (f ? ',' + f : ''); }
+const vnd = n => group(String(Math.round(n))) + ' đ';
+const pct = k => fmt(k * 100) + '%';
+function tyNum(n) { return (n / 1e9).toFixed(2).replace('.', ',').replace(/,?0+$/, ''); }
+function short(n) { return n >= 1e9 ? tyNum(n) + ' tỷ' : group(String(Math.round(n / 1e6))) + ' triệu'; }
+function shortRange(a, b) { return (a >= 1e9 && b >= 1e9) ? tyNum(a) + ' – ' + tyNum(b) + ' tỷ' : short(a) + ' – ' + short(b); }
+function parseNum(s) { const t = String(s).trim().replace(/\s/g, '').replace(',', '.'); if (!/^\d*\.?\d+$|^\d+\.$/.test(t)) return NaN; return parseFloat(t); }
+const defMez = a0 => Math.max(1, Math.round(a0 * 0.6));
+const floorsText = n => n === 1 ? 'Chỉ tầng trệt' : 'Trệt + ' + (n - 1) + ' lầu';
+const clone = o => JSON.parse(JSON.stringify(o));
+
+/* ===== Tính diện tích quy đổi ===== */
+function compute(s) {
+  const Axd = r2(s.w * s.l);
+  const A0 = s.floors[0] == null ? Axd : s.floors[0];
+  const issues = {};
+  if (A0 < 10) issues.dim = 'Tầng trệt tối thiểu 10 m².';
+  const floors = s.floors.map((v, i) => i === 0 ? A0 : (v == null ? A0 : v));
+  const n = floors.length;
+  const top = floors[n - 1];
+  const rows = [];
+
+  const m = MONG[s.mong];
+  const withNen = s.mong === 'bang' && s.nen;
+  rows.push({ id: 'mong', name: 'Móng', note: m.short + (withNen ? ', có đổ nền bê tông' : ''), area: A0, k: withNen ? m.kNen : m.k });
+
+  let hamA = 0;
+  const ham = HAM[s.ham];
+  if (ham) {
+    hamA = s.hamA == null ? A0 : s.hamA;
+    if (hamA > A0) { issues.ham = 'Hầm không được lớn hơn diện tích móng (' + fmt(A0) + ' m²). Đang tính theo ' + fmt(A0) + ' m².'; hamA = A0; }
+    rows.push({ id: 'ham', name: 'Tầng hầm', note: ham.label, area: hamA, k: ham.k });
+  }
+
+  rows.push({ id: 'tret', name: 'Tầng trệt', area: A0, k: 1 });
+
+  let mezA = 0, voidA = 0;
+  if (s.mez) {
+    mezA = s.mezA == null ? defMez(A0) : s.mezA;
+    if (mezA >= A0) { issues.mez = 'Tầng lửng phải nhỏ hơn tầng trệt (' + fmt(A0) + ' m²).'; mezA = Math.max(1, A0 - 1); }
+    voidA = r2(A0 - mezA);
+    rows.push({ id: 'lung', name: 'Tầng lửng', area: mezA, k: 1 });
+    rows.push({ id: 'thong', name: 'Ô thông tầng của lửng', note: voidA < 8 ? 'Dưới 8 m², tính như sàn' : 'Từ 8 m², tính 50%', area: voidA, k: voidA < 8 ? 1 : 0.5 });
+  }
+
+  for (let i = 1; i < n; i++) rows.push({ id: 'lau' + i, name: 'Lầu ' + i, note: 'Tầng ' + (i + 1), area: floors[i], k: 1 });
+
+  let tumA = 0;
+  if (s.tum) {
+    tumA = s.tumA;
+    if (tumA > top) { issues.tum = 'Tum không lớn hơn tầng trên cùng (' + fmt(top) + ' m²). Đang tính theo ' + fmt(top) + ' m².'; tumA = top; }
+    rows.push({ id: 'tum', name: 'Tum thang', area: tumA, k: 1 });
+  }
+  const stA = s.st ? r2(top - tumA) : 0;
+  if (stA > 0) rows.push({ id: 'st', name: 'Sân thượng', area: stA, k: 0.5 });
+
+  const roofA = s.st ? tumA : top;
+  const mai = MAI[s.roof];
+  if (roofA > 0) rows.push({ id: 'mai', name: 'Mái', note: mai.label + (s.st ? ', che tum' : ''), area: roofA, k: mai.slope ? mai.k * CONFIG.heSoNghieng : mai.k, kText: mai.slope ? pct(mai.k) + ' × 1,4' : null });
+
+  if (s.sanT > 0) rows.push({ id: 'sant', name: 'Sân trước', area: s.sanT, k: 0.5 });
+  if (s.sanS > 0) rows.push({ id: 'sans', name: 'Sân sau', area: s.sanS, k: 0.5 });
+
+  rows.forEach(r => { r.q = r2(r.area * r.k); });
+  const total = r2(rows.reduce((a, r) => a + r.q, 0));
+  const price = MO_HINH[s.type].price;
+  const cost = Math.round(total * price);
+  return { Axd, A0, floors, n, top, rows, total, price, cost, mezA, voidA, hamA, tumA, stA, roofA, issues,
+    low: cost * (1 + CONFIG.vatTu[0]), high: cost * (1 + CONFIG.vatTu[1]) };
+}
+
+/* ===== Mặt cắt minh họa ===== */
+function drawHouse(s, r) {
+  const W = Math.max(s.w, 0.5);
+  const L = r.A0 / W;
+  const depths = r.floors.map(a => Math.max(a / W, 0.5));
+  const sanTD = s.sanT / W, sanSD = s.sanS / W;
+  const xf = sanTD, xb = sanTD + L;
+  const xmin = Math.min(0, xb - Math.max(...depths)), xmax = xb + sanSD;
+  const ham = HAM[s.ham];
+  const base = ham ? Math.max(0.3, 3.0 - ham.depth) : 0.3;
+  const tretH = s.mez ? 5.2 : 3.6, lauH = 3.4, tumH = 3.0;
+  const levels = [];
+  let y = base;
+  levels.push({ y0: y, h: tretH, d: depths[0], name: 'Tầng trệt', a: r.A0 }); y += tretH;
+  for (let i = 1; i < r.n; i++) { levels.push({ y0: y, h: lauH, d: depths[i], name: 'Lầu ' + i, a: r.floors[i] }); y += lauH; }
+  const yTop = y, topD = depths[r.n - 1];
+  const tumD = s.tum ? Math.min(r.tumA / W, topD) : 0;
+  const mai = MAI[s.roof];
+  let roof = null;
+  if (r.roofA > 0) {
+    const span = s.st ? tumD : topD;
+    const y0 = s.tum ? yTop + tumH : yTop;
+    const rise = mai.slope ? Math.min(span * mai.rise, 3.6) : 0.35;
+    roof = { x0: xb - span, x1: xb, y0, rise };
+  }
+  const yMax = Math.max(roof ? roof.y0 + roof.rise : 0, s.tum ? yTop + tumH : 0, yTop + 1.0) + 0.5;
+  const fTop = ham ? -ham.depth : 0;
+  const yMin = fTop - 1.6;
+
+  const VW = 380, LX = 258, DW = 196, TOP = 12;
+  const sc = Math.min(DW / (xmax - xmin), 340 / (yMax - yMin));
+  const gx = 40 + DW - (xmax - xmin) * sc;
+  const X = x => gx + (x - xmin) * sc;
+  const Y = v => TOP + (yMax - v) * sc;
+  const VH = Math.ceil(Y(yMin) + 8);
+  const f1 = n => n.toFixed(1);
+  const rect = (x0, y0, x1, y1, cls) => `<rect x="${f1(X(x0))}" y="${f1(Y(y1))}" width="${f1(Math.max(0, (x1 - x0) * sc))}" height="${f1(Math.max(0, (y1 - y0) * sc))}" class="${cls}"/>`;
+  let g = '';
+  g += `<defs><pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" class="g-hatch"/></pattern></defs>`;
+  const gR = X(xmax) + 10;
+  g += `<rect x="6" y="${f1(Y(0))}" width="${f1(gR - 6)}" height="${f1(Y(yMin) - Y(0))}" class="g-earth"/>`;
+  if (sanTD > 0) g += rect(0, 0, xf, 0.12, 'g-pav');
+  if (sanSD > 0) g += rect(xb, 0, xmax, 0.12, 'g-pav');
+  if (ham) g += rect(xb - Math.min(r.hamA / W, L), -ham.depth, xb, base, 'g-sunk');
+
+  // móng
+  const nCol = Math.max(2, Math.round(L / 4) + 1);
+  for (let i = 0; i < nCol; i++) {
+    const cx = xf + 0.3 + (L - 0.6) * i / (nCol - 1);
+    g += rect(cx - 0.16, fTop - 1.1, cx + 0.16, fTop, 'g-found');
+    if (s.mong === 'don') g += rect(cx - 0.7, fTop - 1.45, cx + 0.7, fTop - 1.05, 'g-found');
+  }
+  if (s.mong === 'bang') g += rect(xf, fTop - 1.45, xb, fTop - 1.05, 'g-found');
+  if (s.mong === 'bang' && s.nen && !ham) g += rect(xf, -0.05, xb, 0.3, 'g-nen');
+
+  // các tầng
+  levels.forEach(l => { g += rect(xb - l.d, l.y0, xb, l.y0 + l.h, 'g-level'); });
+  if (s.mez) {
+    const md = Math.min(r.mezA / W, L);
+    g += rect(xb - md, base + 2.8, xb, base + 3.0, 'g-slab');
+    if (L - md > 0.2) g += `<rect x="${f1(X(xf) + 3)}" y="${f1(Y(base + tretH) + 3)}" width="${f1(Math.max(0, (L - md) * sc - 6))}" height="${f1(Math.max(0, (tretH - 2.8) * sc - 6))}" class="g-void"/>`;
+  }
+  levels.forEach(l => { g += rect(xb - l.d, l.y0 + l.h - 0.18, xb, l.y0 + l.h, 'g-slab'); });
+  if (s.tum && tumD > 0) g += rect(xb - tumD, yTop, xb, yTop + tumH, 'g-level');
+  if (s.st && topD - tumD > 0.05) g += rect(xb - topD, yTop, xb - tumD, yTop + 1.0, 'g-para');
+
+  // mái
+  if (roof) {
+    const px0 = X(roof.x0), px1 = X(roof.x1), py = Y(roof.y0), pt = Y(roof.y0 + roof.rise), pm = (px0 + px1) / 2;
+    if (s.roof === 'btct') g += rect(roof.x0 - 0.2, roof.y0, roof.x1, roof.y0 + roof.rise, 'g-roof');
+    else {
+      const pts = `${f1(px0 - 3)},${f1(py)} ${f1(pm)},${f1(pt)} ${f1(px1 + 3)},${f1(py)}`;
+      if (s.roof === 'xien') g += `<polygon points="${pts}" class="g-roof"/>`;
+      else {
+        g += `<polygon points="${pts}" class="g-roof-soft"/>`;
+        if (s.roof === 'ngoi') g += `<path d="M${f1(pm)} ${f1(pt)}V${f1(py)}M${f1((px0 + pm) / 2)} ${f1((py + pt) / 2)}L${f1(pm)} ${f1(py)}M${f1((px1 + pm) / 2)} ${f1((py + pt) / 2)}L${f1(pm)} ${f1(py)}" class="g-truss"/>`;
+      }
+    }
+  }
+  g += `<line x1="6" y1="${f1(Y(0))}" x2="${f1(gR)}" y2="${f1(Y(0))}" class="g-ground"/>`;
+  g += `<text x="8" y="${f1(Y(0) - 5)}" class="g-note">Vỉa hè</text>`;
+  if (sanTD * sc > 46) g += `<text x="${f1(X(xf / 2))}" y="${f1(Y(0) - 5)}" text-anchor="middle" class="g-note">Sân trước</text>`;
+  if (sanSD * sc > 40) g += `<text x="${f1(X(xb + sanSD / 2))}" y="${f1(Y(0) - 5)}" text-anchor="middle" class="g-note">Sân sau</text>`;
+
+  // nhãn
+  const labels = [];
+  if (roof) labels.push({ y: Y(roof.y0 + roof.rise * 0.4), name: 'Mái', a: r.roofA });
+  if (s.tum && tumD > 0) labels.push({ y: Y(yTop + tumH / 2), name: 'Tum', a: r.tumA });
+  if (r.stA > 0) labels.push({ y: Y(yTop + 0.5), name: 'Sân thượng', a: r.stA });
+  for (let i = levels.length - 1; i >= 1; i--) labels.push({ y: Y(levels[i].y0 + levels[i].h / 2), name: levels[i].name, a: levels[i].a });
+  if (s.mez) labels.push({ y: Y(base + 2.9), name: 'Lửng', a: r.mezA });
+  labels.push({ y: Y(base + (s.mez ? 1.4 : tretH / 2)), name: 'Tầng trệt', a: r.A0 });
+  if (ham) labels.push({ y: Y((fTop + base) / 2), name: 'Hầm', a: r.hamA });
+  labels.push({ y: Y(fTop - 1.0), name: 'Móng', a: r.A0 });
+  const GAP = 15;
+  const ly = labels.map(l => l.y);
+  for (let i = 1; i < ly.length; i++) if (ly[i] < ly[i - 1] + GAP) ly[i] = ly[i - 1] + GAP;
+  const over = ly[ly.length - 1] - (VH - 8);
+  if (over > 0) for (let i = 0; i < ly.length; i++) ly[i] -= over;
+  for (let i = ly.length - 2; i >= 0; i--) if (ly[i] > ly[i + 1] - GAP) ly[i] = ly[i + 1] - GAP;
+  const ex = X(xb) + 3;
+  labels.forEach((l, i) => {
+    g += `<path d="M${f1(ex)} ${f1(l.y)}H${f1(ex + 6)}L${f1(LX - 6)} ${f1(ly[i])}H${f1(LX - 3)}" class="g-lead"/>`;
+    g += `<text x="${LX}" y="${f1(ly[i] + 4)}" class="g-name">${l.name}</text>`;
+    g += `<text x="${VW - 4}" y="${f1(ly[i] + 4)}" text-anchor="end" class="g-val">${fmt(l.a)} m²</text>`;
+  });
+  return `<svg viewBox="0 0 ${VW} ${VH}" role="img" aria-label="Mặt cắt minh họa công trình theo số liệu đã nhập">${g}</svg>`;
+}
+
+/* ===== Trạng thái và giao diện ===== */
+const $ = s => document.querySelector(s);
+let S = load();
+
+function load() {
+  const d = clone(DEFAULTS);
+  try {
+    const o = JSON.parse(localStorage.getItem(STORE_KEY) || 'null');
+    if (!o || typeof o !== 'object') return d;
+    for (const k in d) {
+      if (!(k in o)) continue;
+      if (k === 'floors') {
+        const f = o.floors;
+        if (Array.isArray(f) && f.length >= 1 && f.length <= CONFIG.maxTang && f.every(v => v === null || (typeof v === 'number' && v > 0))) d.floors = f;
+        continue;
+      }
+      if (d[k] === null ? (o[k] === null || typeof o[k] === 'number') : typeof o[k] === typeof d[k]) d[k] = o[k];
+    }
+    if (!MO_HINH[d.type]) d.type = 'pho';
+    if (!MAI[d.roof]) d.roof = 'btct';
+    if (!MONG[d.mong]) d.mong = 'bang';
+    if (!(d.ham in HAM)) d.ham = 'none';
+  } catch (e) {}
+  return d;
+}
+function save() { try { localStorage.setItem(STORE_KEY, JSON.stringify(S)); } catch (e) {} }
+
+const tret = () => S.floors[0] == null ? r2(S.w * S.l) : S.floors[0];
+function getVal(key) {
+  if (key.startsWith('f:')) { const i = +key.slice(2); if (i === 0) return tret(); return S.floors[i] == null ? tret() : S.floors[i]; }
+  if (key === 'mezA') return S.mezA == null ? defMez(tret()) : S.mezA;
+  if (key === 'hamA') return S.hamA == null ? tret() : S.hamA;
+  return S[key];
+}
+function setVal(key, v) {
+  if (key.startsWith('f:')) { S.floors[+key.slice(2)] = v; return; }
+  S[key] = v;
+}
+
+function renderFloors() {
+  $('#floorlist').innerHTML = S.floors.map((_, i) => {
+    const name = i === 0 ? 'Tầng trệt' : 'Lầu ' + i;
+    return `<div class="floorrow"><label class="lbl" for="in-f${i}">${name}<small>Tầng ${i + 1}</small></label>` +
+      `<div class="numin" data-key="f:${i}" data-min="1" data-max="5000"><input id="in-f${i}" inputmode="decimal" autocomplete="off"><span class="unit">m²</span></div>` +
+      (i ? `<button type="button" class="rm" data-rm="${i}" aria-label="Bỏ ${name}">×</button>` : '<span></span>') + `</div>`;
+  }).join('');
+  const add = $('#add-floor');
+  const full = S.floors.length >= CONFIG.maxTang;
+  add.disabled = full;
+  add.textContent = full ? 'Tối đa ' + CONFIG.maxTang + ' tầng' : '+ Thêm tầng';
+}
+
+function syncControls() {
+  document.querySelectorAll('input[type=checkbox][data-key]').forEach(c => { c.checked = !!S[c.dataset.key]; });
+  ['type', 'roof', 'mong', 'ham'].forEach(n => { document.querySelectorAll(`input[name=${n}]`).forEach(r => { r.checked = r.value === S[n]; }); });
+}
+
+function syncInputs() {
+  document.querySelectorAll('.numin').forEach(box => {
+    const inp = box.querySelector('input');
+    if (document.activeElement === inp) return;
+    inp.value = fmt(getVal(box.dataset.key));
+  });
+}
+
+function setErr(id, msg, sel) {
+  const el = $('#e-' + id);
+  if (el) { el.hidden = !msg; el.textContent = msg || ''; }
+  if (sel) document.querySelectorAll(sel).forEach(s => s.classList.toggle('bad', !!msg));
+}
+
+function update() {
+  const r = compute(S);
+  syncInputs();
+
+  $('#d-land-l').textContent = fmt(S.w) + ' × ' + fmt(S.l) + ' m';
+  $('#d-land').textContent = fmt(r.Axd) + ' m²';
+  $('#d-n').textContent = floorsText(r.n) + ' · tổng diện tích sàn';
+  $('#d-sum').textContent = fmt(r.floors.reduce((a, b) => a + b, 0)) + ' m²';
+
+  $('#g-mez').hidden = !S.mez;
+  if (S.mez) { $('#d-void-l').textContent = 'Ô thông tầng · ' + (r.voidA < 8 ? 'dưới 8 m², tính 100%' : 'tính 50%'); $('#d-void').textContent = fmt(r.voidA) + ' m²'; }
+
+  $('#g-tum').hidden = !S.tum;
+  $('#d-st').textContent = S.st ? 'Phần mái bằng còn lại ngoài tum, ' + fmt(r.stA) + ' m², tính 50%' : 'Không có sân thượng, mái che toàn bộ tầng trên cùng';
+
+  const noRoof = r.roofA <= 0;
+  document.querySelectorAll('input[name=roof]').forEach(x => { x.disabled = noRoof; });
+  $('#d-roof').textContent = noRoof ? '· không có mái riêng, sàn sân thượng là mái' : '· che ' + fmt(r.roofA) + ' m²' + (S.st ? ' trên tum' : ' tầng trên cùng');
+
+  const nen = $('#in-nen');
+  nen.disabled = S.mong !== 'bang';
+  $('#t-nen').classList.toggle('off', nen.disabled);
+  $('#g-ham').hidden = S.ham === 'none';
+
+  setErr('dim', r.issues.dim, '[data-key="f:0"]');
+  setErr('mez', r.issues.mez, '[data-key=mezA]');
+  setErr('ham', r.issues.ham, '[data-key=hamA]');
+  setErr('tum', r.issues.tum, '[data-key=tumA]');
+
+  const priceText = group(String(r.price));
+  $('#r-short').textContent = short(r.cost);
+  $('#r-exact').textContent = vnd(r.cost);
+  $('#r-area').textContent = fmt(r.total) + ' m²';
+  $('#r-price').textContent = priceText + ' đ/m²';
+  $('#r-allin').textContent = shortRange(r.low, r.high);
+  $('#dock-total').textContent = short(r.cost);
+  $('#r-shape').textContent = MO_HINH[S.type].label + ' · ' + floorsText(r.n).toLowerCase();
+  $('#svg').innerHTML = drawHouse(S, r);
+
+  $('#tbody').innerHTML = r.rows.map(x =>
+    `<tr><td><b>${x.name}</b>${x.note ? `<small>${x.note}</small>` : ''}</td><td>${fmt(x.area)} m² <small>× ${x.kText || pct(x.k)}</small></td><td class="q">${fmt(x.q)} m²</td></tr>`).join('');
+  $('#tfoot').innerHTML =
+    `<tr><td>Tổng diện tích quy đổi</td><td></td><td>${fmt(r.total)} m²</td></tr>` +
+    `<tr><td>Đơn giá ${MO_HINH[S.type].label.toLowerCase()}</td><td></td><td>× ${priceText} đ/m²</td></tr>` +
+    `<tr class="money"><td>Phần thô + nhân công hoàn thiện</td><td></td><td>${vnd(r.cost)}</td></tr>`;
+  save();
+  return r;
+}
+
+function summaryText() {
+  const r = compute(S);
+  const parts = [floorsText(r.n).toLowerCase()];
+  if (S.mez) parts.push('lửng');
+  if (S.tum) parts.push('tum');
+  if (S.st) parts.push('sân thượng');
+  const lines = [
+    'DỰ TOÁN SƠ BỘ · MORI HOMES',
+    'Mô hình: ' + MO_HINH[S.type].label,
+    'Diện tích khu đất: ' + fmt(S.w) + ' × ' + fmt(S.l) + ' m = ' + fmt(r.Axd) + ' m²',
+    'Kết cấu: ' + parts.join(', '),
+    'Móng: ' + MONG[S.mong].short.toLowerCase() + (S.mong === 'bang' && S.nen ? ', có đổ nền bê tông' : '') + (HAM[S.ham] ? ' · Hầm ' + HAM[S.ham].label.toLowerCase() + ', ' + fmt(r.hamA) + ' m²' : ''),
+    r.roofA > 0 ? 'Mái: ' + MAI[S.roof].label.toLowerCase() + ', ' + fmt(r.roofA) + ' m²' : 'Mái: sàn sân thượng',
+    '',
+    ...r.rows.map(x => '· ' + x.name + ': ' + fmt(x.area) + ' m² × ' + (x.kText || pct(x.k)) + ' = ' + fmt(x.q) + ' m²'),
+    '',
+    'Tổng diện tích quy đổi: ' + fmt(r.total) + ' m²',
+    'Đơn giá ' + MO_HINH[S.type].label.toLowerCase() + ': ' + group(String(r.price)) + ' đ/m²',
+    'Phần thô + nhân công hoàn thiện: ' + vnd(r.cost),
+    'Cộng vật tư hoàn thiện (40–70%): khoảng ' + shortRange(r.low, r.high),
+    '',
+    'Nhờ MORI HOMES khảo sát và báo giá chính xác.',
+    'MORI HOMES · Hotline ' + CONFIG.hotline + ' · ' + CONFIG.facebook
+  ];
+  return lines.join('\n');
+}
+
+/* ===== Sự kiện ===== */
+const form = $('#form');
+form.addEventListener('submit', e => e.preventDefault());
+form.addEventListener('input', e => {
+  const box = e.target.closest('.numin');
+  if (!box) return;
+  const v = parseNum(e.target.value);
+  if (isNaN(v)) return;
+  dropUndo();
+  setVal(box.dataset.key, Math.min(+box.dataset.max, Math.max(+box.dataset.min, v)));
+  update();
+});
+form.addEventListener('focusout', e => { if (e.target.closest('.numin')) setTimeout(syncInputs, 0); });
+form.addEventListener('click', e => {
+  const rm = e.target.closest('[data-rm]');
+  if (rm) { dropUndo(); S.floors.splice(+rm.dataset.rm, 1); renderFloors(); update(); return; }
+  if (e.target.closest('#add-floor') && S.floors.length < CONFIG.maxTang) {
+    dropUndo();
+    const last = S.floors[S.floors.length - 1];
+    S.floors.push(S.floors.length > 1 ? last : null);
+    renderFloors(); update();
+  }
+});
+form.addEventListener('change', e => {
+  const t = e.target;
+  if (t.type === 'checkbox' && t.dataset.key) { dropUndo(); S[t.dataset.key] = t.checked; update(); }
+  else if (t.type === 'radio') { dropUndo(); S[t.name] = t.value; update(); }
+});
+let undoState = null, msgTimer = 0;
+const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+function showResetMsg(text, withUndo) {
+  clearTimeout(msgTimer);
+  $('#reset-txt').textContent = text;
+  $('#undo').hidden = !withUndo;
+  $('#reset-msg').hidden = false;
+  if (!withUndo) msgTimer = setTimeout(() => { $('#reset-msg').hidden = true; }, 3000);
+}
+// Khách nhập số mới sau khi đặt lại thì bỏ bản lưu cũ, để Hoàn tác không ghi đè số mới.
+function dropUndo() { if (undoState) { undoState = null; $('#reset-msg').hidden = true; } }
+$('#reset').addEventListener('click', () => {
+  // Bấm đặt lại nhiều lần vẫn giữ số khách đã nhập, không lưu đè bằng số mặc định.
+  if (!same(S, DEFAULTS)) undoState = clone(S);
+  S = clone(DEFAULTS);
+  renderFloors(); syncControls(); update();
+  if (undoState) showResetMsg('Đã đặt lại thông số.', true);
+  else showResetMsg('Thông số đang ở mặc định.', false);
+});
+$('#undo').addEventListener('click', () => {
+  if (!undoState) return;
+  S = undoState; undoState = null;
+  renderFloors(); syncControls(); update();
+  showResetMsg('Đã khôi phục thông số đã nhập.', false);
+});
+
+// Chép vào bộ nhớ tạm: thử cách chép trực tiếp trước (chạy được trong khung nhúng), rồi tới Clipboard API.
+function legacyCopy(text) {
+  const span = document.createElement('span');
+  span.textContent = text;
+  span.style.cssText = 'position:fixed;top:0;left:0;clip:rect(0,0,0,0);white-space:pre;user-select:text;-webkit-user-select:text';
+  document.body.appendChild(span);
+  const sel = getSelection(), range = document.createRange();
+  range.selectNodeContents(span); sel.removeAllRanges(); sel.addRange(range);
+  let ok = false;
+  try { ok = document.execCommand('copy'); } catch (e) {}
+  sel.removeAllRanges(); span.remove();
+  return ok;
+}
+function copyText(text, onOk, onFail) {
+  if (legacyCopy(text)) { onOk(); return; }
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(onOk, onFail); return; }
+  } catch (e) {}
+  onFail();
+}
+
+let copyTimer = 0;
+$('#copy').addEventListener('click', () => {
+  const text = summaryText();
+  const btn = $('#copy'), lbl = $('#copy-l');
+  copyText(text, () => {
+    $('#copybox').hidden = true;
+    btn.classList.add('done');
+    lbl.textContent = 'Đã sao chép.';
+    clearTimeout(copyTimer);
+    copyTimer = setTimeout(() => { btn.classList.remove('done'); lbl.textContent = 'Sao chép dự toán'; }, 2500);
+  }, () => {
+    const box = $('#copybox'), ta = $('#copy-text');
+    ta.value = text; box.hidden = false; ta.focus(); ta.select();
+  });
+});
+
+$('#copy-hot').addEventListener('click', () => {
+  const btn = $('#copy-hot');
+  copyText(CONFIG.hotline, () => {
+    btn.textContent = 'Đã chép';
+    setTimeout(() => { btn.textContent = 'Sao chép'; }, 2000);
+  }, () => {
+    const r = document.createRange(); r.selectNodeContents($('#hotline'));
+    const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r);
+  });
+});
+
+$('#dock-go').addEventListener('click', () => {
+  const reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  $('#ket-qua').scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+});
+if ('IntersectionObserver' in window) {
+  new IntersectionObserver(es => { es.forEach(en => $('#dock').classList.toggle('away', en.isIntersecting)); }, { threshold: 0.35 }).observe($('#total-card'));
+}
+
+(function init() {
+  document.querySelectorAll('input[name=type]').forEach(r => { r.nextElementSibling.querySelector('.k').textContent = group(String(MO_HINH[r.value].price)) + ' đ/m²'; });
+  $('#hotline').textContent = CONFIG.hotline;
+  $('#foot-hot').textContent = CONFIG.hotline;
+  $('#call').href = 'tel:' + CONFIG.hotline.replace(/\D/g, '');
+  $('#fb').href = CONFIG.facebook;
+  $('#fb-t').textContent = CONFIG.facebook.replace(/^https?:\/\/(www\.)?/, '');
+  renderFloors(); syncControls(); update();
+})();
+</script>
+</body>
+</html>
